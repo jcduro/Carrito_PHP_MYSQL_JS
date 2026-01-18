@@ -98,6 +98,7 @@ INSERT INTO `productos_neon` (`id`, `codigo`, `nombre`, `precio`, `cantidad`, `i
 
 producy/
     └── product01/
+        ├── conexion.php             # Conexion
         ├── prod.php                 # Vista principal del catálogo neon dentro del dashboard
         ├── get_productos_neon.php   # Endpoint JSON que devuelve los productos activos
         ├── img/                     # Imágenes de productos
